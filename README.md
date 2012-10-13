@@ -1,4 +1,4 @@
 abr4xas
 =======
 
-App Google Chrome Web Store
+App de mi blog para Google Chrome Web Store.
