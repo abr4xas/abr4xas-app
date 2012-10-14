@@ -10,7 +10,8 @@
     },
     "app": {
         "launch": {
-            "local_path": "RSS.html"
+            "local_path": "RSS.html",
+	     "default_icon": "icon_128.png"
         }
     }
 }

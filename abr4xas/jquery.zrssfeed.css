@@ -7,19 +7,6 @@
  *
  */
 
-
-       min-width:357px;
-        overflow-x:hidden;
-      }
-
-      img {
-        margin:5px;
-        border:2px solid black;
-        vertical-align:middle;
-        width:75px;
-        height:75px;
-      }
-
 body {
 	margin: 1em 3em;
 	font-family: Tahoma, Genevam, sans-serif;
