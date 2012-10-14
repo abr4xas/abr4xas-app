@@ -10,3 +10,4 @@
 = 3.0.1 =
  * Se realizan cambios menores a la app. 
  * Se re-estructura nuevamente la app para usar el estandar HTML5 
+ * Se valida CSS y HTML y son totalmente validos. segun la W3C
