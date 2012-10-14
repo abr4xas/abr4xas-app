@@ -9,14 +9,16 @@ http://www.opensource.org/licenses/gpl-license.php
 */
 
 body {
-	width:auto;
+	width:320px;
 	font-family: 'Advent Pro', sans-serif;font-weight: 400;
 	background: #fff url(http://abr4xas.org/img/bg.jpg) repeat fixed center top;
 	color: #333;
+	text-align:justify;
 }
 .logo {
-	height:auto;
-	width:400px;
+	height:100%;
+	width:100%;
+	margin:0 auto 0 auto;
 }
 h1 { 
 	font-family: 'Advent Pro', sans-serif;
@@ -24,6 +26,15 @@ h1 {
 	font-size:200%;
 	color: #000;
 	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+        -webkit-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+        -moz-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+h2 {
+        font-family: 'Advent Pro', sans-serif;
+        font-weight: 400;
+        font-size:180%;
+        color: #000;
+        text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
         -webkit-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
         -moz-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
