@@ -8,9 +8,8 @@
 	    "48" :  "assets/icon_48.png",
 	    "16" :  "assets/icon_16.png"
     },
-    "app": {
-        "launch": {
-            "local_path": "RSS.html"
-        }
-    }
+	  "browser_action": {
+	 	  "default_icon": "assets/icon.png",
+		  "default_popup": "RSS.html"
+	  }
 }
