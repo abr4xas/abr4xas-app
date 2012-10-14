@@ -1,4 +1,29 @@
+/*  
+Theme Name: abr4xas.org
+Theme URI: https://github.com/abr4xas/abr4xas
+Version: 1.0
+Author: abr4xas
+Author URI: http://abr4xas.org/
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
 body {
+	width:auto;
+	font-family: 'Advent Pro', sans-serif;font-weight: 400;
+	background: #fff url(http://abr4xas.org/img/bg.jpg) repeat fixed center top;
+	color: #333;
+}
+.logo {
+	height:auto;
 	width:400px;
 }
-
+h1 { 
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: 400; 
+	font-size:200%;
+	color: #000;
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+        -webkit-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+        -moz-text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
