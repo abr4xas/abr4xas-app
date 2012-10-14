@@ -1,13 +1,14 @@
 {
     "name": "El blog de abr4xas",
+    "description": "Un blog de tecnologia, linux y cualquier otra cosa interesante.",
     "version": "2.0",
     "manifest_version": 2,
-    "description": "Un blog de tecnologia, linux y cualquier otra cosa interesante.",
-    "browser_action": {
-        "default_icon": "icon.png",
-        "default_popup": "popup.html"
+    "icons": {
+        "128": "icon/icon_128.png"
     },
-    "permissions": [
-        "http://abr4xas.org/"
-    ]
+    "app": {
+        "launch": {
+            "local_path": "popup.html"
+        }
+    }
 }
