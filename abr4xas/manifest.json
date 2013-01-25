@@ -1,15 +1,15 @@
 {
     "name": "El blog de abr4xas",
-    "description": "Un blog de tecnologia, linux y cualquier otra cosa interesante.",
-    "version": "3.0.1",
+    "description": "Un blog de tecnologia, música, anime y mucho más...",
+    "version": "3.1",
     "manifest_version": 2,
     "icons": {
 	    "128" : "assets/icon_128.png",
 	    "48" :  "assets/icon_48.png",
 	    "16" :  "assets/icon_16.png"
     },
-   "browser_action":{
-            "default_icon": "assets/favicon.ico",
-	    "default_popup": "RSS.html"
-		    }
+	  "app": {
+	    "launch": {
+	      "web_url": "http://abr4xas.org/"
+	    }
 }
