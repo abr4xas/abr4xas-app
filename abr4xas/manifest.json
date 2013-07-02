@@ -1,15 +1,23 @@
 {
-    "name": "El blog de abr4xas",
-    "description": "Un blog de tecnologia, música, anime y mucho más...",
+    "name": "__MSG_appName__",
+    "description": "__MSG_appDesc__",
     "version": "3.1",
     "manifest_version": 2,
+    "default_locale": "es",
     "icons": {
 	    "128" : "assets/icon_128.png",
 	    "48" :  "assets/icon_48.png",
 	    "16" :  "assets/icon_16.png"
-    },
+    	     },
 	  "app": {
 	    "launch": {
 	      "web_url": "http://abr4xas.org/"
-	    }
+	              }	
+		 },
+  "permissions": [
+    "<all_urls>",
+    "unlimitedStorage",
+    "notifications",
+    "background"
+		 ]
 }
